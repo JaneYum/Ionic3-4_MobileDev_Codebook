@@ -9,6 +9,7 @@
 3. onClickUsingNavCtrl() { this.navCtrl.navigateForward('/about'); /// another form of navigation!}
 4. gotoSettings(){ this.navCtrl.navigateForward('/settings'); /// another form of navigation!}
 
+5. paramter: { path: 'pageTwo/:name', loadChildren...}
 
 ## 2️⃣ Service 
 ### Module: ?
@@ -17,3 +18,10 @@
 ## 3️⃣ Master Details Pattern 
 ### Module: ?
 ### Source1: heroSpike
+- Hero
+  - Name
+  - Powers
+  - functions to retrieve and modify these
+- HeroManager
+  - The list of Heroes
+  - functions to get all Heroes, add Heroes, remove Heroes
