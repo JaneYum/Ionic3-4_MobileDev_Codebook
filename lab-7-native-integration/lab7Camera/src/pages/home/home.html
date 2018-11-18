@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Picture Taker
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <!-- note Ionic 3 syntax here -->
+  <button ion-button full (click)="takePic()">Take Pic</button>
+  <img [src]="image"/>
+  <p> {{ time | date:'long' }}</p>
+</ion-content>
