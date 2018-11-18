@@ -1,7 +1,8 @@
 # Ionic3-4_MobileDev_Codebook
 
-## Navigation
-### Router or NavCtrl
+## 1️⃣Navigation 
+### Module: Router or NavCtrl
+### Source: week4lecture
 constructor(public router: Router, public navCtrl: NavController ) {
   }
   onClick() {
