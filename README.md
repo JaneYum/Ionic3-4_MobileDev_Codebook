@@ -1,4 +1,26 @@
 # Ionic3-4_MobileDev_Codebook
+## Start code
+- you get an ionic 3 project, using ionic 3 routing
+$ ionic start myProject blank
+- you get an ionic 4 project, using angular routing
+$ ionic start myProject blank --type=angular
+
+- Preview
+$ ionic serve vs ionic lab
+
+- Generate page
+$ ionic generate
+$ ionic g page detail
+
+- Generate service
+$ ng generate service checklist
+
+- Template language comes from Angular
+    * *ngFor
+    * {{ item }}
+    * (click)
+    * [(banana_in_a_box)]
+
 
 ## 1️⃣ Navigation 
 ### Module: Router or NavCtrl
@@ -8,7 +30,6 @@
 2. onClick() {this.router.navigateByUrl('/about');}
 3. onClickUsingNavCtrl() { this.navCtrl.navigateForward('/about'); /// another form of navigation!}
 4. gotoSettings(){ this.navCtrl.navigateForward('/settings'); /// another form of navigation!}
-
 5. Pass Data between pages while navigating - paramter: { path: 'pageTwo/:name', loadChildren...}
 
 ## 2️⃣ Service 
@@ -18,6 +39,7 @@
 ## 3️⃣ Master Details Pattern 
 ### Module: ?
 ### Source1: heroSpike
+https://paper.dropbox.com/doc/Week-5-Models-Navigation-Params-Injectables-Services-and-the-MasterDetail-Pattern--AOZa0DrVMUmst1LjFOTF6fxVAQ-BdmKIzZI01N81QsU07gKS
 - Hero
   - Name
   - Powers
@@ -25,3 +47,11 @@
 - HeroManager
   - The list of Heroes
   - functions to get all Heroes, add Heroes, remove Heroes
+ 
+## 3️⃣ Master Details Pattern
+ 
+## 1️⃣ UI
+- dynamic
+[hidden]="todos &amp;&amp; todos.length &gt; 0”
+- For icon
+https://beta.ionicframework.com/docs/layout/css-utilities <ion-icon slot="icon-only" name="add-circle"></ion-icon>
