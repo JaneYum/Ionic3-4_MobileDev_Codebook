@@ -1,10 +1,10 @@
 # Ionic3-4_MobileDev_Codebook
 
-## 1️⃣Navigation 
+## 1️⃣ Navigation 
 ### Module: Router or NavCtrl
 ### Source: week4lecture
-constructor(public router: Router, public navCtrl: NavController ) {}
-onClick() {this.router.navigateByUrl('/about');}
-onClickUsingNavCtrl() { this.navCtrl.navigateForward('/about'); /// another form of navigation!}
-gotoSettings(){ this.navCtrl.navigateForward('/settings'); /// another form of navigation!}
+1. constructor(public router: Router, public navCtrl: NavController ) {}
+2. onClick() {this.router.navigateByUrl('/about');}
+3. onClickUsingNavCtrl() { this.navCtrl.navigateForward('/about'); /// another form of navigation!}
+4. gotoSettings(){ this.navCtrl.navigateForward('/settings'); /// another form of navigation!}
 
