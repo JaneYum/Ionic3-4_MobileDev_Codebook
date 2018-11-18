@@ -59,6 +59,12 @@ https://paper.dropbox.com/doc/Understanding-Callbacks-Promises-and-Observables-w
 5. Dynamic UI
 https://umich.instructure.com/courses/235244/files/8875862/download?verifier=7me7augihHgnkDRKTOohAsWX2GDdyuYwWEjqkQwl&wrap=1
 
+## 5️⃣ Native Integration 
+### Module: Camera, emulator, Ionic Native App 
+### Source1: lab-6-whack-a-mole
+https://paper.dropbox.com/doc/Going-Native-with-Ionic-3-Ionic-Native-and-Cordova--ASGakOVNPHEF2DOE0z4Ad_iNAg-20tY5KivpJnNNnSXfNdec
+https://vimeo.com/298460004
+
 ## 1️⃣ UI
 - dynamic
 [hidden]="todos &amp;&amp; todos.length &gt; 0”
