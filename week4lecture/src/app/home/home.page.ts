@@ -1,0 +1,24 @@
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { NavController} from '@ionic/angular';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: 'home.page.html',
+  styleUrls: ['home.page.scss'],
+})
+export class HomePage {
+
+
+  constructor(public router: Router, public navCtrl: NavController ) {
+  }
+  onClick() {
+    this.router.navigateByUrl('/about');
+  }
+  onClickUsingNavCtrl() {
+    this.navCtrl.navigateForward('/about'); /// another form of navigation!
+  }
+  gotoSettings(){
+    this.navCtrl.navigateForward('/settings'); /// another form of navigation!
+  }
+}
