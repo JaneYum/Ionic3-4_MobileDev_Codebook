@@ -62,8 +62,8 @@ https://umich.instructure.com/courses/235244/files/8875862/download?verifier=7me
 ## 5️⃣ Native Integration 
 ### Module: Camera, emulator, Ionic Native App 
 ### Source1: lab-7-native-integration
-https://paper.dropbox.com/doc/Going-Native-with-Ionic-3-Ionic-Native-and-Cordova--ASGakOVNPHEF2DOE0z4Ad_iNAg-20tY5KivpJnNNnSXfNdec
-https://vimeo.com/298460004
+- https://paper.dropbox.com/doc/Going-Native-with-Ionic-3-Ionic-Native-and-Cordova--ASGakOVNPHEF2DOE0z4Ad_iNAg-20tY5KivpJnNNnSXfNdec
+- https://vimeo.com/298460004
 
 ## 1️⃣ UI
 - dynamic
