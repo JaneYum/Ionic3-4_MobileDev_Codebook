@@ -48,8 +48,17 @@ https://paper.dropbox.com/doc/Week-5-Models-Navigation-Params-Injectables-Servic
   - The list of Heroes
   - functions to get all Heroes, add Heroes, remove Heroes
  
-## 3️⃣ Master Details Pattern
- 
+## 4️⃣ Promises, Observer and Observables 
+### Module: Observer and Observables 
+### Source1: lab-6-whack-a-mole
+https://paper.dropbox.com/doc/Understanding-Callbacks-Promises-and-Observables-without-a-CS-Degree--ASGXPQhX7sBOdq6hPVidYGXGAg-QKFXgYuGQeluvkAlh6cw1
+1. Timestamps
+2. Promise
+3. Score sorting
+4. Images display
+5. Dynamic UI
+
+
 ## 1️⃣ UI
 - dynamic
 [hidden]="todos &amp;&amp; todos.length &gt; 0”
