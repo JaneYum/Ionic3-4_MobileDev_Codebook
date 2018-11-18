@@ -9,7 +9,7 @@
 3. onClickUsingNavCtrl() { this.navCtrl.navigateForward('/about'); /// another form of navigation!}
 4. gotoSettings(){ this.navCtrl.navigateForward('/settings'); /// another form of navigation!}
 
-5. paramter: { path: 'pageTwo/:name', loadChildren...}
+5. Pass Data between pages while navigating - paramter: { path: 'pageTwo/:name', loadChildren...}
 
 ## 2️⃣ Service 
 ### Module: ?
