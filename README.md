@@ -92,8 +92,11 @@ Now that everything is in place, we can start to implement the service.
 ### Source1: simple_firebase
 - https://paper.dropbox.com/doc/Week-10-FireBase-Agile-Development--ASFHNv7muxB9ArxO6~aCe_iiAg-jamWcjDIH2ryoOGSmAWKx
 
+## 7️⃣ Notification
+### Source 
+https://github.com/JaneYum/cordova-plugin-local-notifications
 
-## 1️⃣ UI
+## 8️⃣ UI
 - dynamic
 [hidden]="todos &amp;&amp; todos.length &gt; 0”
 - For icon
