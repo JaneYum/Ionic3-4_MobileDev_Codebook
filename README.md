@@ -57,7 +57,7 @@ https://paper.dropbox.com/doc/Understanding-Callbacks-Promises-and-Observables-w
 3. Score sorting
 4. Images display
 5. Dynamic UI
-
+https://umich.instructure.com/courses/235244/files/8875862/download?verifier=7me7augihHgnkDRKTOohAsWX2GDdyuYwWEjqkQwl&wrap=1
 
 ## 1️⃣ UI
 - dynamic
