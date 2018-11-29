@@ -101,3 +101,21 @@ https://github.com/JaneYum/cordova-plugin-local-notifications
 [hidden]="todos &amp;&amp; todos.length &gt; 0”
 - For icon
 https://beta.ionicframework.com/docs/layout/css-utilities <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+-Here are some pointers that you may find useful:
+
+- Adding a background image:
+https://www.w3schools.com/cssref/pr_background-image.asp 
+(image from https://www.toptal.com/designers/subtlepatterns/ 
+- Using cards:
+https://ionicframework.com/docs/components/#cards 
+- Using icons for buttons:
+https://ionicframework.com/docs/components/#icon-buttons 
+https://ionicframework.com/docs/ionicons/ 
+- Using a floating button:
+https://ionicframework.com/docs/components/#fabs 
+- Styling the input field:
+https://ionicframework.com/docs/components/#stacked-labels 
+- Modifying the color palette and changing the color of the cancel button.
+see week 11 lecture notes
+- Positioning buttons to the right:
+https://ionicframework.com/docs/theming/css-utilities/
