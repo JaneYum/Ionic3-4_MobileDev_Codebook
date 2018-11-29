@@ -1,0 +1,80 @@
+<!--
+  Generated template for the FoodmenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Our Cuisine</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding [class.is-goldmember]="checkGoldMember">
+    <ion-searchbar></ion-searchbar>
+    <div class="goldswitch">
+        <ion-item no-lines>
+          <ion-label>Gold member?</ion-label>
+          <ion-toggle [(ngModel)]="checkGoldMember"></ion-toggle>
+        </ion-item>
+      </div>
+    <ion-card>
+      <ion-card-content class="menu-item">
+        <img src="../../assets/imgs/food00001.jpg" alt="" class="food-preview-img">
+        <div class="description">
+          <h2>BISTRO OMELET</h2>
+          <p>sheep’s milk cheese</p>
+          <button ion-button clear class="next-button" (click)="nextPage()">Add</button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-card>
+      <ion-card-content class="menu-item">
+        <img src="../../assets/imgs/food00002.jpg" alt="" class="food-preview-img">
+        <div class="description">
+          <h2>BELGIAN WAFFLE</h2>
+          <p>malted waffle</p>
+          <button ion-button clear class="next-button" (click)="nextPage()">Add</button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-card>
+      <ion-card-content class="menu-item">
+        <img src="../../assets/imgs/food00003.jpg" alt="" class="food-preview-img">
+        <div class="description">
+          <h2>KALE BREAKFAST</h2>
+          <p>tuscan kale, marcona</p>
+          <button ion-button clear class="next-button" (click)="nextPage()">Add</button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-card>
+        <ion-card-content class="menu-item">
+          <img src="../../assets/imgs/food00004.jpg" alt="" class="food-preview-img">
+          <div class="description">
+            <h2>CHALLAH FRENCH</h2>
+            <p>french-toasted</p>
+            <button ion-button clear class="next-button" (click)="nextPage()">Add</button>
+          </div>
+        </ion-card-content>
+      </ion-card>
+  
+      <ion-card>
+          <ion-card-content class="menu-item">
+            <img src="../../assets/imgs/food00005.jpg" alt="" class="food-preview-img">
+            <div class="description">
+              <h2>BROCCOLI, BACON</h2>
+              <p>applewood smoked</p>
+              <button ion-button clear class="next-button" (click)="nextPage()">Add</button>
+            </div>
+          </ion-card-content>
+        </ion-card>
+  
+  </ion-content>
+  

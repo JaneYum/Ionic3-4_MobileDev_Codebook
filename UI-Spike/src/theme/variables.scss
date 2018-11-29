@@ -1,0 +1,96 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
+
+
+$searchbar-md-background-color: #ff71ce;
+$searchbar-md-input-background-color: #01cdfe;
+$searchbar-md-input-placeholder-color: #fffb96;
+$searchbar-md-input-text-color: #fffb96;
+$searchbar-md-input-border-radius: 40px;
+$searchbar-md-input-search-icon-svg: "<svg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 317.253 252.248'><defs><style>.cls-1{fill:#1e1e1e;}</style></defs><title>burger</title><path class='cls-1' d='M235.785,252.248H81.468A58.494,58.494,0,0,1,23.039,193.82v-3.1a7.222,7.222,0,0,1,7.222-7.221h256.73a7.221,7.221,0,0,1,7.222,7.221v3.1A58.494,58.494,0,0,1,235.785,252.248ZM37.674,197.94a44.046,44.046,0,0,0,43.794,39.865H235.785a44.045,44.045,0,0,0,43.793-39.865Z'/><path class='cls-1' d='M298.1,197.94H19.153a19.153,19.153,0,0,1,0-38.306H298.1a19.153,19.153,0,0,1,0,38.306ZM19.153,174.077a4.71,4.71,0,1,0,0,9.42H298.1a4.71,4.71,0,0,0,0-9.42Z'/><path class='cls-1' d='M266.7,128.111H50.552A23.218,23.218,0,0,1,27.36,104.919v-1.57A23.219,23.219,0,0,1,50.552,80.156H266.7a23.219,23.219,0,0,1,23.192,23.193v1.57A23.218,23.218,0,0,1,266.7,128.111ZM50.552,94.6a8.759,8.759,0,0,0-8.749,8.75v1.57a8.759,8.759,0,0,0,8.749,8.749H266.7a8.759,8.759,0,0,0,8.749-8.749v-1.57A8.759,8.759,0,0,0,266.7,94.6Z'/><path class='cls-1' d='M282.671,94.6H34.581a7.221,7.221,0,0,1-7.221-7.221A87.476,87.476,0,0,1,114.738,0h87.777a87.477,87.477,0,0,1,87.378,87.378A7.221,7.221,0,0,1,282.671,94.6ZM42.158,80.156H275.1a73.04,73.04,0,0,0-72.58-65.713H114.738A73.04,73.04,0,0,0,42.158,80.156Z'/><path class='cls-1' d='M279.074,174.077H38.179A29.161,29.161,0,0,1,9.051,144.95V142.8a29.161,29.161,0,0,1,29.128-29.128h240.9A29.16,29.16,0,0,1,308.2,142.8v2.154A29.16,29.16,0,0,1,279.074,174.077ZM38.179,128.111A14.7,14.7,0,0,0,23.494,142.8v2.154a14.7,14.7,0,0,0,14.685,14.684h240.9a14.7,14.7,0,0,0,14.684-14.684V142.8a14.7,14.7,0,0,0-14.684-14.685Z'/><path class='cls-1' d='M218.906,159.5a7.208,7.208,0,0,1-2.834-.582L142.616,127.53l5.675-13.282,67.364,28.781,13.619-25.538,12.744,6.8-16.736,31.384A7.223,7.223,0,0,1,218.906,159.5Z'/><rect class='cls-1' x='96.794' y='29.06' width='22.315' height='14.443'/><rect class='cls-1' x='161.261' y='54.394' width='21.076' height='14.443'/><rect class='cls-1' x='198.454' y='29.06' width='20.456' height='14.443'/></svg>"
